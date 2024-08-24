@@ -17,7 +17,9 @@ docker run --gpus 1 --name my_pytorch_container pytorchapp
 ```
 
 Read the Dockerfile for more information
-Also follow this youtube video for further explanation
+
+Follow this youtube video for further explanation
+
 <a href="https://www.youtube.com/watch?v=KUECJHlV1LE&t=346s">
     <img src="https://github.com/sougato97/docker_demo_with_GPU/Designer.png" width="120" height="120" />
 </a>
