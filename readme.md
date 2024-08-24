@@ -2,7 +2,7 @@ To build the Docker image, use the following command:
 ```bash
 docker build -t pytorchapp .
 ```
-Here "pytorchapp" is the name of the docker image
+Here "pytorchapp" is the name of docker image
 
 
 To run the image in a container:
