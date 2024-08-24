@@ -1,0 +1,7 @@
+To build the docker image:
+-- docker build -t pytorchapp .
+Here "pytorchapp" is the name of the docker image
+To runt he image in a container:
+-- docker run --gpus all --name my_pytorch_container pytorchapp
+here "my_pytorch_container" is the name of the container. If not provided then docker will create a random name. 
+also "--gpus all" means, allowing GPU support. For a particular GPU use command "docker run --gpus 1 --name my_pytorch_container pytorchapp"
