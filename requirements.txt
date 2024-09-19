@@ -1,5 +1,0 @@
-numpy
--f https://download.pytorch.org/whl/cu124
-torch
-torchvision
-torchaudio
